@@ -11,7 +11,6 @@ function hello() {
 
   const maliciousObj1 = { "__proto__": { "oops": "It works !" }};
 
-  _.merge(myObj, maliciousObject1);
 }
 
 hello();
